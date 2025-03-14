@@ -3,8 +3,6 @@ import os
 from os.path import isfile, join
 import numpy as np
 
-mnist_raw_path = '/MNIST_db/raw'
-
 def list_files(mnist_raw_path):
     return [os.path.join(mnist_raw_path, f) for f in os.listdir(mnist_raw_path) if isfile(os.path.join(mnist_raw_path, f))]
 
