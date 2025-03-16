@@ -53,7 +53,7 @@ NeuralNetwork-Fundamentals-MNIST/
    ```
 2. **Instala** las dependencias necesarias (idealmente en un entorno virtual):
    ```bash
-   pip install numpy matplotlib jupyterthemes
+   pip install -r requirements.txt
    ```
 3. **Comprueba** que los archivos de MNIST (`.gz`) estén en la carpeta `MNIST_db/raw`.  
 4. **Abre** el notebook principal:
